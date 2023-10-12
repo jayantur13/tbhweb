@@ -1,0 +1,103 @@
+.mail {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.fb {
+  background-color: rgb(1, 101, 225);
+  border: none;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.tw {
+  background-color: rgb(29, 155, 240);
+  border: none;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.lnkin {
+  background-color: rgb(10, 102, 194);
+  border: none;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.mailicon {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fbicon {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twicon {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lnkinicon {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail:hover {
+  background-color: rgb(244, 240, 240);
+  transition: background-color 0.3s ease;
+}
+
+.fb:hover {
+  background-color: rgb(244, 240, 240);
+  transition: background-color 0.3s ease;
+}
+
+.tw:hover {
+  background-color: rgb(244, 240, 240);
+  transition: background-color 0.3s ease;
+}
+
+.lnkin:hover {
+  background-color: rgb(244, 240, 240);
+  transition: background-color 0.3s ease;
+}
+
+.mail:hover .mailicon {
+  color: rgb(0, 0, 0);
+  transition: color 0.3s ease;
+}
+
+.fb:hover .fbicon {
+  color: rgb(1, 101, 225);
+  transition: color 0.3s ease;
+}
+
+.tw:hover .twicon {
+  color: rgb(29, 155, 240);
+  transition: color 0.3s ease;
+}
+
+.lnkin:hover .lnkinicon {
+  color: rgb(10, 102, 194);
+  transition: color 0.3s ease;
+}
