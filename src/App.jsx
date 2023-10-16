@@ -910,11 +910,11 @@ export default function Home() {
       </div>
       <div className="downloadbtn text-center mt-4">
         <p className="text-xl font-thin">Via Download Button</p>
-        <div className="flex flex-row align-middle justify-evenly mt-4">
+        <div className="flex space-x-1 justify-center mt-4">
           <DLButton
             type="button"
             title="btn_with_dl_%"
-            buttonText="Download File#0"
+            buttonText="File 1"
             showProgress={false}
             progressText={"%"} // %r
             fileUrl="https://sabnzbd.org/tests/internetspeed/50MB.bin"
@@ -923,11 +923,11 @@ export default function Home() {
           />
 
           <DLButton
-            buttonText="Download File#1"
+            buttonText="File 2"
             type="button"
             title="btn_with_dl%_prg_bar"
             showProgress={false}
-            progressText="Downloading.."
+            progressText="Downloading"
             fileUrl="https://sabnzbd.org/tests/internetspeed/50MB.bin"
             fileName={generateFilename() + ".bin"}
             color="warning"
@@ -935,7 +935,7 @@ export default function Home() {
           />
 
           <DLButton
-            buttonText="Download File#2"
+            buttonText="File 3"
             type="button"
             title="btn_with_dl%_prgbar_top"
             showProgress={true}
@@ -947,7 +947,7 @@ export default function Home() {
           />
 
           <DLButton
-            buttonText="Download File#3"
+            buttonText="File 4"
             type="button"
             title="btn_with_dl%_prgbar_bottom"
             showProgress={true}

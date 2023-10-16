@@ -1,6 +1,6 @@
-# icon-web
+# tbhweb
 
-Website built using React + Vite with HMR.Click the link for [tbh-buttons](https://github.com/jayantur13/tbh-buttons)
+Website built using React + Vite with HMR.Click the link for [tbh-buttons](https://github.com/jayantur13/tbh-buttons) source.
 
 ## Install dependencies
 
@@ -28,4 +28,4 @@ Please adhere to this project's [Code Of Conduct](https://github.com/jayantur13/
 
 ## License
 
-[MIT](https://https://github.com/jayantur13/tbhweb/blob/master/LICENSE/)
+This project is licensed under the [MIT](https://https://github.com/jayantur13/tbhweb/blob/master/LICENSE/)
